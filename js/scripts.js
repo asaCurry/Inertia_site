@@ -29,10 +29,10 @@ $(window).scroll(function(){
 
     if(($('#blurFour').offset().top > 400) && (w >= $('#triggerFour').offset().top - 300)) {
         $('#blurFour').removeClass('hidden');
-         $('#blurFour').addClass('animated fadeInLeft');
+         $('#blurFour').addClass('animated fadeInRight');
     window.setTimeout(function() {
         $('#sharpFour').removeClass('hidden');
-        $('#sharpFour').addClass('animated fadeInLeft');
+        $('#sharpFour').addClass('animated fadeInRight');
     }, 
     200);
     } 
@@ -57,10 +57,10 @@ $(window).scroll(function(){
     w = Math.floor( $(window).scrollTop() ); 
         if(($('#blurTwo').offset().top > 400) && (w >= $('#triggerTwo').offset().top -300)) {
         $('#blurTwo').removeClass('hidden');
-         $('#blurTwo').addClass('animated fadeInLeft');
+         $('#blurTwo').addClass('animated fadeInRight');
     window.setTimeout(function() {
         $('#sharpTwo').removeClass('hidden');
-        $('#sharpTwo').addClass('animated fadeInLeft');
+        $('#sharpTwo').addClass('animated fadeInRight');
     }, 
     200);
     } 
