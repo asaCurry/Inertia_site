@@ -86,7 +86,7 @@ $(window).scroll(function(){
 
   if ($("#sharpOne").hasClass("animated") && parallaxDiff < 500 && 100 < parallaxDiff) {
     $("#sharpOne").css(
-      'top', parallaxDiff/6 +'px'
+      'top', parallaxDiff/8 +'px'
     );
     /* $('#sharpOne').css("top",); */
   }
@@ -110,7 +110,7 @@ $(window).scroll(function(){
 
   if ($("#sharpThree").hasClass("animated") && parallaxDiff < 500 && 100 < parallaxDiff) {
     $("#sharpThree").css(
-      'top', parallaxDiff/6 +'px'
+      'top', parallaxDiff/-6  +'px'
     );
     /* $('#sharpOne').css("top",); */
   }
@@ -122,7 +122,7 @@ $(window).scroll(function(){
 
   if ($("#sharpFour").hasClass("animated") && parallaxDiff < 500 && 100 < parallaxDiff) {
     $("#sharpFour").css(
-      'top', parallaxDiff/6 +'px'
+      'top', parallaxDiff/-6 +'px'
     );
     /* $('#sharpOne').css("top",); */
   }

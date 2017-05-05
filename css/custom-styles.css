@@ -92,12 +92,17 @@ main pre {
 
 .hero-phone {
 	padding-top: 32px;
+
+}
+
+.hero-phone img {
+	max-width: 190px;	
 }
 /* value prop div */
 
 .value-prop-header {
 	position: relative;
-	padding: 144px 0 24px 0;
+	padding: 90px 0 24px 0;
 	margin-bottom: 32px;
 	font-weight: 700;
 }
@@ -212,30 +217,34 @@ line-height: 1.4;
 #sharpOne {
 	position: absolute;
 	z-index: 25;
-	right: 100px;
+	right: 50px;
 	top: 18px;
 	transition:	all .25s ease;
+	max-width: 220px;
 }
 
 #blurOne {
 	position: absolute;
 	z-index: 10;
-	right: 150px;
+	right: 100px;
 	top: 100px;
+	max-width: 390px;
 }
 
 #sharpTwo {
 	position: absolute;
 	z-index: 25;
 	top: 18px;
-	right: 100px;
+	right: 170px;
+	max-width: 350px;
 }
 
 #blurTwo {
 	position: absolute;
 	z-index: 10;
-	right: 150px;
+	right: 100px;
 	top: 100px;
+	max-width: 350px;
 }
 
 #sharpThree {
@@ -243,27 +252,31 @@ line-height: 1.4;
 	z-index: 25;
 	top: 18px;
 	right: 100px;
+	max-width: 190px;
 }
 
 #blurThree {
 	position: absolute;
 	z-index: 10;
 	right: 150px;
-	top: 100px;
+	top: 50px;
+	max-width: 190px;
 }
 
 #sharpFour {
 	position: absolute;
 	z-index: 25;
 	top: 18px;
-	right: 100px;
+	right: 130px;
+	max-width: 190px;
 }
 
 #blurFour {
 	position: absolute;
 	z-index: 10;
-	right: 150px;
-	top: 100px;
+	right: 180px;
+	top: 0px;
+	max-width: 190px;
 }
 /* buttom styles */
 
@@ -328,7 +341,7 @@ line-height: 1.4;
 
 	}
 	.content-container {
-		padding: 0;
+		padding: 0 16px;
 	}
 	.content-copy-div {
 		padding: 0 5%;
@@ -344,6 +357,7 @@ line-height: 1.4;
 	}
 
 	#blurOne {
+		display: none;
 		position: static;
 		transition:	all .25s ease;
 	}
@@ -356,6 +370,7 @@ line-height: 1.4;
 	#blurTwo {
 		position: static;
 		transition:	all .25s ease;
+		display: none;
 	}
 
 	#sharpThree {
@@ -366,6 +381,7 @@ line-height: 1.4;
 	#blurThree {
 		position: static;
 		transition:	all .25s ease;
+		display: none;		
 	}
 
 	#sharpFour {
@@ -376,6 +392,7 @@ line-height: 1.4;
 	#blurFour {
 		position: static;
 		transition:	all .25s ease;
+		display: none;	
 	}
 
 	.icon-containers {
@@ -383,8 +400,17 @@ line-height: 1.4;
     margin-right: auto;
 	}
 
+	.footer-svg {
+		display: none;
+	}
+
 	.hidden {
 		display: block;
 	}
+
+}
+
+@media (max-width: 990px) {
+
 
 }
