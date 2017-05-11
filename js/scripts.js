@@ -55,14 +55,9 @@ $(window).scroll(function(){
 
 $(window).scroll(function(){
     w = Math.floor( $(window).scrollTop() ); 
-        if(($('#blurTwo').offset().top > 400) && (w >= $('#triggerTwo').offset().top -300)) {
-        $('#blurTwo').removeClass('hidden');
-         $('#blurTwo').addClass('animated fadeInRight');
-    window.setTimeout(function() {
+        if(($('#sharpTwo').offset().top > 400) && (w >= $('#triggerTwo').offset().top -300)) {
         $('#sharpTwo').removeClass('hidden');
         $('#sharpTwo').addClass('animated fadeInRight');
-    }, 
-    200);
     } 
   });   
 
@@ -133,6 +128,15 @@ $(window).scroll(function(){
 $(".3d-depth").hover(function(){
   $(this).toggleClass("is-active");
 });
+
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function () {
+
+  if(xhr.readyState === 4 && xhr.status === 204) {
+    console.log("form submitted correctly");
+  }
+};
 
 });
 
