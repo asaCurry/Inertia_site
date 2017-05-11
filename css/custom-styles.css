@@ -471,6 +471,7 @@ line-height: 1.4;
 
 }
 
+
 .modal-footer {
 	background-color: #E9C579;
 	padding: 0;
@@ -484,6 +485,11 @@ line-height: 1.4;
 	right: 7px;
 	top: 25px;
 }
+
+.thank-you-message {
+	color: lightgreen;
+}
+
 .modal-logo {
 	max-height: 50px;
 	width: auto;

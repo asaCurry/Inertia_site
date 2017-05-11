@@ -130,6 +130,14 @@ $(".3d-depth").hover(function(){
 });
 
 
+/* modal and form submit classes */
+
+$('.home-submit-form').submit(function() {
+    if($('.home-submit-form').valid()) {
+      $('.modal-body').html("<p class='thank-you-message'>Thank you! We'll be in touch soon as more product information becomes available.<p>");
+    }
+});
+
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
 
