@@ -124,7 +124,7 @@ $(window).scroll(function(){
 
   }); 
 
-/*consmetic scripts */ 
+/*cosmetic scripts */ 
 $(".3d-depth").hover(function(){
   $(this).toggleClass("is-active");
 });

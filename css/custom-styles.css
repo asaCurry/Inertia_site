@@ -69,6 +69,17 @@ main pre {
 .content-copy-div {
 	padding: 0 8%;
 }
+
+/* featurette styles */
+
+.featurette-divider {
+	border-top: 1px solid #fff;
+}
+
+.featurette-heading {
+
+	font-weight: 700;
+}
 /* header div */
 .hero-container {
 	min-height: 600px;
@@ -126,16 +137,7 @@ main pre {
 .value-columns-right {
 	padding: 0 10% 0 2%;
 }
-/* featurette styles */
 
-.featurette-divider {
-	border-top: 1px solid #fff;
-}
-
-.featurette-heading {
-
-	font-weight: 700;
-}
 /* dashboard image and div */
 .dashboard-container {
 	display: flex;
@@ -176,7 +178,7 @@ main pre {
 }
 
 
-/* footer container */
+/* footer  */
 
 .footer-container {
 	font-family: 'Open Sans', sans-serif;
@@ -214,7 +216,7 @@ line-height: 1.4;
 	left: 0;
 }
 
-/* image styles */
+/* image styles - these IDs control the fade-in script */
 
 #sharpOne {
 	position: absolute;
@@ -440,7 +442,7 @@ line-height: 1.4;
 
 @media (max-width: 1199px) {
 	#sharpTwo {
-	max-width: 350px;
+	max-width: 500px;
 
 	}
 
